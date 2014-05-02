@@ -12,13 +12,13 @@ License: GPL
 * One Month 
 */
 
-define(__ROOT__, plugin_dir_path(__FILE__));
 
-include(__ROOT__ . '/plm-calendar-activate.php');
-include(__ROOT__ . '/plm-calendar-settings.php');
-include(__ROOT__ . '/plm-calendar-functions.php');
-include(__ROOT__ . '/plm-calendar-widgets.php');
-include(__ROOT__ . '/plm-calendar-shortcodes.php');
+
+include(plugin_dir_path(__FILE__) . '/plm-calendar-activate.php');
+include(plugin_dir_path(__FILE__) . '/plm-calendar-settings.php');
+include(plugin_dir_path(__FILE__) . '/plm-calendar-functions.php');
+include(plugin_dir_path(__FILE__) . '/plm-calendar-widgets.php');
+include(plugin_dir_path(__FILE__) . '/plm-calendar-shortcodes.php');
 
 class plm_Month 
 {
