@@ -1,0 +1,15 @@
+@import 'susy';
+@import 'breakpoint';
+
+.plm_calendar_container {
+	> .plm_calendar_month {		
+		&:nth-of-type(odd) {
+			clear: both;
+			@include span(2 of 4);
+		}
+		&:nth-of-type(even) {
+			clear:none;
+			@include span(2 of 4 at 3);
+		}
+	}
+}

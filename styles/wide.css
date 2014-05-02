@@ -1,0 +1,25 @@
+/* line 6, wide.scss */
+.plm_calendar_container > .plm_calendar_month:nth-of-type(odd), .plm_calendar_container > .plm_calendar_month:nth-of-type(even) {
+  clear: none;
+  margin-right: 0;
+}
+/* line 10, wide.scss */
+.plm_calendar_container > .plm_calendar_month:nth-of-type(3n+1) {
+  clear: both;
+  width: 31.03448%;
+  float: left;
+  margin-right: 3.44828%;
+}
+/* line 14, wide.scss */
+.plm_calendar_container > .plm_calendar_month:nth-of-type(3n+2) {
+  clear: none;
+  width: 31.03448%;
+  float: left;
+  margin-right: 3.44828%;
+}
+/* line 18, wide.scss */
+.plm_calendar_container > .plm_calendar_month:nth-of-type(3n) {
+  clear: none;
+  width: 31.03448%;
+  float: right;
+}

@@ -1,0 +1,13 @@
+/* line 6, medium.scss */
+.plm_calendar_container > .plm_calendar_month:nth-of-type(odd) {
+  clear: both;
+  width: 47.36842%;
+  float: left;
+  margin-right: 5.26316%;
+}
+/* line 10, medium.scss */
+.plm_calendar_container > .plm_calendar_month:nth-of-type(even) {
+  clear: none;
+  width: 47.36842%;
+  float: right;
+}
